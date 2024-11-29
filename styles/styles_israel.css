@@ -1,0 +1,601 @@
+
+.background{
+    background-color: #E7ECFF;
+    }
+    .superior{
+        margin-top: -20px;
+        display: flex;
+        color: white;
+        justify-content: space-around;
+    }
+    .container_superior{
+        height: 40px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: rgb(32, 32, 32);
+    }
+    .container_navigation_superior{
+        height: 100px;
+        background-color: aqua;
+    }
+    .container_nav{
+        margin-left: auto;
+        margin-right: auto;
+        width: 1080px;
+        display: flex;
+        justify-content: space-around;
+    }
+    .input_nav_cont{
+        height: 400px;
+        width: 300px;
+    }
+    
+    .container_superior_header{
+        margin-left: auto;
+        margin-right: auto;
+        width: 1440px;
+    
+    }
+    
+    .nav-0{
+        position: relative;
+        z-index: 2;
+        height: auto;
+        padding: 2px;
+        color: rgb(0, 0, 0);
+        background-color: blue;
+        display: flex;
+        justify-content: space-around;
+    }
+    .navigation-superior{
+        display: flex;
+        padding: 30px;
+        justify-content: space-around;
+    }
+    .container{
+        margin-left: auto;
+        margin-right: auto;
+        width: 1220px;
+    }
+    .icones{
+        display: flex;
+        justify-content: space-between;
+        height: 100px;
+    }
+    
+    .icones .fa-solid{
+        font-size: 25px;
+        &:hover{
+            color:rgb(0, 0, 0);
+            transition: 0.2s;
+        }
+    }
+    .input_pesquisa{
+        width: 700px;
+        height: 35px;
+        font-size: 20px;
+        border-radius: 5px;
+        border: 1px solid black;
+        box-shadow: none; 
+        outline: none; 
+        background-color: rgb(219, 219, 219);
+        padding-left: 10px;   
+    }
+    
+        .icones fa-solid{
+        padding: 10px;
+        }
+    
+        i{
+            padding: 10px;
+        }
+        .logo-container {
+            text-align: center; /* Centraliza a logo na div */
+        }
+    
+        .logo {
+            width: 150px; /* Define a largura da logo */
+            height: auto; /* Mantém a proporção da imagem */
+        }
+        .sem_sublinhado{
+            text-decoration: none;
+        }
+        .sem_sublinhado p:hover{
+            transition: 0.3s;
+            color: #4400ff;
+        }
+        .carrousel_cont{
+            position: relative;
+            z-index: 2;
+        }
+        .navigation-icons{
+        margin-top: -40px;
+        height: auto;
+        font-size: 20px;
+        padding: 4px;
+        display: flex;
+        justify-content: space-around;
+        }
+        a{
+            color: rgb(255, 255, 255);
+            cursor: pointer;
+            &:hover{
+                transition: 0.2s;
+                color: rgb(0, 0, 0);
+            }
+        }
+        .nav-1{
+            background-color: rgb(255, 255, 255);
+        }
+        .nav-2{
+            background-color: rgb(255, 255, 255);
+        }
+        .banner_header{
+            background-image: url("https://img.terabyteshop.com.br/banner/2816.jpg");
+            height: 450px;
+        }
+    
+        /* CARROSEL AQUI */
+        .carousel-item img {
+                object-fit: hidden; /* Ensures the image covers the area */
+                height: 60vh; /* Full height */
+                width: 100%; /* Full width */
+            }
+        header{
+            text-decoration: none;
+        }
+        .navigation-icons a{
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+        }
+    
+        .navigation-icons a:hover{
+            text-decoration: none;
+            color: rgb(60, 0, 255);
+        }
+    /* LOGIN ----------------------------------------------------------------------------- */
+ 
+    /* LOGIN ----------------------------------------------------------------------------- */
+    /* BOX CARDS */
+    .box1{
+        background-image: url('../images/brands/bosch.png');
+        margin-top: 40px;
+        width: 345px;
+        padding-inline: 2px;
+        height: 150px;
+        left: 240px;
+        background-color: aqua;
+        border-radius: 5px;
+        gap: 10px;
+        }
+        
+        .box1 p{
+            font-size: 30px;
+            color: white;
+            font-weight: bold;
+            margin-top: 25%;
+            text-align: center;
+        }
+    
+        .box2{
+        background-image: url('../images/brands/dewalt.png');
+        margin-top: 40px;
+        width: 345px;
+        padding-inline: 2px;
+        height: 150px;
+        left: 240px;
+        background-color: aqua;
+        border-radius: 5px;
+        gap: 10px;
+        }
+        
+        .box2 p{
+            font-size: 30px;
+            color: white;
+            font-weight: bold;
+            margin-top: 25%;
+            text-align: center;
+        }
+        .box3{
+        background-image: url('../images/brands/makita.png');
+        margin-top: 40px;
+        width: 345px;
+        padding-inline: 2px;
+        height: 150px;
+        left: 240px;
+        background-color: aqua;
+        border-radius: 5px;
+        gap: 10px;
+        }
+        
+        .box3 p{
+            font-size: 30px;
+            color: white;
+            font-weight: bold;
+            margin-top: 25%;
+            text-align: center;
+        }
+        .box4{
+        background-image: url('../images/brands/skill.png');
+        margin-top: 40px;
+        width: 345px;
+        padding-inline: 2px;
+        height: 150px;
+        left: 240px;
+        background-color: aqua;
+        border-radius: 5px;
+        gap: 10px;
+        }
+        
+        .box4 p{
+            font-size: 30px;
+            color: white;
+            font-weight: bold;
+            margin-top: 25%;
+            text-align: center;
+        }
+    
+    
+        .box:hover{
+            scale: 1.1;
+        }
+        .container2 {
+            margin-left: auto;
+            margin-right: auto;
+            width: 1080px;
+            display: flex;
+            padding: 20px;
+            gap: 10px;
+            justify-content: center;
+        }
+    
+    /* FOOTER________________________________________________________________________ */
+    main{
+        position: relative;
+        z-index: 2;
+        background-color: white;
+    }
+    .subtfooter{
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        height: 350px;  
+        padding-left: 50px;
+        background-color: #00FF37;
+        background-image: url('../images/Group\ 69.png');
+        /* background: #ffffff; */
+        color: #e94040;
+        text-align: center;
+      }
+      .subtfooter h1{
+        font-size: 60px;
+        font-weight: bold;
+      }
+      .subtfooter p{
+        padding: -100px;
+        font-size: 30px;
+        font-size: 20px;
+        font-weight: bold;
+      }
+      .subtfooter h1{
+        color: #ffffff;
+      }
+      .footermain{
+        margin-top: -30px;
+        position: relative;
+        z-index: 2;
+        background: #000000;
+        text-decoration: none;
+        border: none;
+        height: 600px;
+        margin-bottom: 350px;
+        box-shadow: 3px 2px 2px 0px rgba(51,51,51,0.5);
+      }
+      .principal_btn h1{
+        padding: 20px;
+        text-align: center;
+            color: white;
+      }
+      .paragrafo p{
+        text-align: center;
+            color: white;
+      }
+      .paragrafo{
+        line-height: 5px;
+      }
+      .btn_footer{
+        border: none;
+        border-radius: 2px;
+        background-color: #ffffff;
+        width: 150px;
+        height: 50px;
+      }
+      .btn_contato{
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .btn_footer:hover{
+        background-color: blue;
+      }
+    
+      .banner-main-one img{
+        margin-top: 50px;
+        width: 100%;
+        height: 500px;
+      }
+    
+    .linha{
+        height: 1px;
+        display: flex;
+        width: 1500px;
+        margin-left: 200px;
+        background-color: #ffffff;
+        color: #00FF37;
+    }
+    
+    .footer_infos{
+        align-items: center;
+        display: flex;
+        margin-bottom: 40px;
+        gap: 20px;
+        color: #000000;
+        justify-content: center;
+    }
+      .img_footer{
+        padding: 10px;
+        margin-top: 250px;
+        height: 70px;
+        width: 200px;
+      }
+    
+    .parceiros_footer{
+        text-decoration: none;
+        font-size: 20px;
+        line-height: 15px;
+        width: 300px;
+        height: 200px;
+    }
+    
+    
+    .dúvidas_footer{
+        font-size: 20px;
+        line-height: 15px;
+        width: 300px;
+        height: 200px;
+    
+    }
+    
+    .footer_infos h1{
+        font-size: 20px;
+        color: #5900ff;
+        letter-spacing: 5px;
+        font-weight: bold;
+    }
+    .footer_infos p{
+        color: white;
+    }
+    .suporte_footer{
+        font-size: 20px;
+        line-height: 15px;
+        width: 300px;
+        height: 200px;
+    
+    }
+    .slogam{
+        padding: 50px 30px;
+        line-height: 50px;
+        width: 300px;
+        height: 200px;
+        color: white;
+    }
+    
+    
+    .redes_sociais{
+        width: 300px;
+        height: 200px;
+    }
+    .icons_social_footer{
+     display: flex;
+     flex-direction: row;
+    }
+    .fa-brands{
+        color: #fdfdfd;
+        font-size: 30px;
+    }
+    .slogam{
+        font-size: 60px;
+        display: flex;
+    }
+    .slogam_span{
+        font-weight: bold;
+        color: #5900ff;
+    }
+    .container_footer_pagamentos{
+        margin-left: auto;
+        margin-right: auto;
+        width: 1440px;
+    }
+    .infos_seguranca_pagamento{
+        display: flex;
+        flex-direction: row;
+        color: #ffffff;
+        height: 200px;
+        width: 300px;
+        margin-top: 30px;
+    }
+    .infos_seguranca_pagamento h4{
+        text-align: left;
+        font-weight: bold;
+        font-size: 15px;
+        line-height: -30px;
+    }
+    .icons_pagamento{
+        margin-top: -30px;
+        display: flex;
+        flex-direction: row;
+        height: 280px;
+        width: 280px;
+    }
+    .cop{
+        justify-content: space-around;
+        font-weight: bold;
+        display: flex;
+        text-align: center;
+        margin-top: 50px;
+        color: rgb(255, 255, 255);
+    }
+    .cop a{
+        color: white;
+        text-decoration: none;
+    }
+    .cop a:hover{
+        color: #3700FF;
+    }
+      .container_departamentos {
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+    
+    }
+    .header {
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+    .departments {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .department {
+        width: 12%;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+    .department img {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+    }
+    .department p {
+        margin: 10px 0 0;
+        font-size: 14px;
+        color: #333;
+    }
+    .pagination {
+        text-align: right;
+        margin-top: 20px;
+    }
+    .nav_graphic{
+        display: flex;
+        width: 100%;
+    }
+    .color_one{
+        background-color: #3700FF;
+        width: 708px;
+        height: 6px;
+    }
+    .color_two{
+        background-color: #EEFF00;
+        width: 708px;
+        height: 6px;
+    }
+    .color_three{
+        background-color: #00FF37;
+        width: 708px;
+        height: 6px;
+    }
+    
+    .freight_ok{
+        height: 30px;
+        width: 90px;
+        background-color: #c2c2c2;
+        border: none;
+    }
+    .freight_ok:hover{
+        color: white;
+        background-color: #000000;
+    }
+    
+.container_card_infos{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1296px;
+    gap: 10px;
+    margin-bottom: 40px;
+}
+.container_card_infos p{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+.card_three_products{
+    width: 432px;
+    border-radius: 10px;
+    height: 300px;
+    background-color: #00FF37;
+}
+.card_two_products{
+    width: 432px;
+    border-radius: 10px;
+    height:300px;
+    background-color: #3700FF;
+}
+.card_one_products{
+    width: 432px;
+    border-radius: 10px;
+    height: 300px;
+    background-color: #00FF37;
+}
+/* Criei a classe option pois não consegui entender a anterior */
+.brands{
+    display: flex;
+    height: 80px;
+    width: 30px;
+    gap: 4px;
+    margin-left: 45px;
+}
+.card_one_products h1{
+    text-align: center;
+    font-size: 25px;
+}
+.container_home_teste{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1080px;
+}
+
+.backgorund_white{
+    background-color: white;
+}
+p{
+    font-weight: 400;
+}
+.button_checkout_info{
+    background-color: #cacaca;
+    border: none;
+    width: 100%;
+    border-radius: 5px;
+    height: 30px;
+}
+.button_checkout_info:hover{
+    background-color: #0004ff;
+    color: white;
+    transition: 0.2s;
+}
+.busca_cep a{
+    text-decoration: none;
+    color: #000000;
+}
+.busca_cep a:hover{
+    color: #0004ff;
+    transition: 0.2s;
+}
