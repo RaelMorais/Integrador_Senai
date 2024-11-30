@@ -6,19 +6,22 @@
     display: flex;
     flex-direction: column;
     margin: 15px 0px;
-    width:100%
+    width:100%;
 }
 
 .form-field label {
     padding-bottom: 5px;
     font-size: 12px;
+    
 }
 
 .form-field input, select{
     padding:10px;
     font-size: 16px;
     border-radius: 10px;
-    border: 1px solid #e4e4e4;
+    border: none;
+    background-color: rgb(238, 238, 238);
+    /* border: 1px solid #e4e4e4; */
 }
 
 .form-field.cep,.form-field.uf{
