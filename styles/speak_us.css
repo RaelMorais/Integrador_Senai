@@ -118,3 +118,15 @@
     padding: 0px 5px;
     text-decoration: none;
 }
+.help_container_cards a{
+    text-decoration: none;
+}
+.card_help p{
+    padding: 10px;
+    color: black;
+    font-size: 50px;
+    font-weight: 400;
+}
+.help_container_cards a{
+    border: none;
+}
