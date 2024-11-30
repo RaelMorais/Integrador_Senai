@@ -7,3 +7,5 @@ Criar página de opinoões de clientes com o fale conosco e para entrar em conta
 Fazer video para por no about_us 
 
 Terminar estilização 
+
+Fazer a de produto
