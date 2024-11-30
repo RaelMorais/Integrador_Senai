@@ -1,0 +1,120 @@
+.container_fale_conosco{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    height:2700px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.fale_conosco_texto p{
+    font-size: 20px;
+    font-weight: 600;
+}
+.fale_conosco_texto h1{
+    font-size: 60px;
+    font-weight: 400;
+}
+.help_container_cards{
+    margin-top: 70px;
+    text-decoration: none;
+    gap: 30px;
+    display: flex;
+    /* height: 800px; */
+    /* background-color: black; */
+}
+.card_help{
+    border-radius: 5px;
+    height: 500px;
+    background-color: blue;
+    width: 380px;
+}
+.card_help:hover{
+    scale: 1.1;
+}
+.card_speak_with_us{
+    margin-top: 30px;
+    width: 100%;
+    height: 250px;
+    background-color: aqua;
+}
+
+.FAQ_review{
+    margin-top: 100px;
+    width: 100%;
+    margin: auto;
+    min-height: 100vh;
+    padding: 2rem;
+    display: grid;
+
+}
+:root{
+
+--transition: 0.4s ease-in-out; 
+
+
+}
+
+.accordion__wrapper {
+    text-align: center;
+    width: 100%;
+    padding: 5rem;
+}
+
+.accordion__title{
+    font-size: 60px;
+    font-weight: 400;
+    color: black;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.accordion {
+    border-bottom: 0.1rem solid black;
+    padding-bottom: 2rem;
+    margin-bottom: 3rem;
+}
+
+.accordion__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    cursor: pointer;
+} 
+
+.accordion__icon {
+    /* background-color: rgb(201, 35, 35); */
+    width: 2.2rem;
+    height: 2.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: black;
+    flex-shrink: 0;
+}
+
+.accordion__question{
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
+}
+
+.accordion__answer{
+    padding: 2rem 0;
+}
+
+.accordion__content{
+    overflow: hidden;
+    height: 0;
+    transition: var(--transition);
+}
+.more_help{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.more_help a{
+    text-align: right;
+    padding: 0px 5px;
+    text-decoration: none;
+}
