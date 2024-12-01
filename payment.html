@@ -250,8 +250,6 @@
       <div class="btn_contato">
         <button class="btn_footer">Clique aqui</button>
       </div>
-      <div class="linha"></div>
-      <p>Footer</p>
       <div class="footer_infos">
         <div class="slogam">
           <p>Make <span class="slogam_span">Different.</span></p>
@@ -313,7 +311,6 @@
           </div>
         </div>
       </div>
-      <div class="linha"></div>
       <div class="cop">
       <a href=""><p>Projeto Integrador</p></a>
       <p>&COPY;2024</p>
@@ -328,5 +325,10 @@
   </footer>
    
 </body>
-
+<script>
+  const buttonHome = document.querySelector('.btn_footer');
+buttonHome.addEventListener('click', function() {
+    window.location.href = 'speakUs.html'; 
+});
+</script>
 </html>

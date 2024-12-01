@@ -9,7 +9,8 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
-  <title>Document</title>
+  <link rel="shortcut icon" href="./images/icon_site/favicon-32x32.png" type="image/x-icon">
+  <title>Mange&trade;</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link
@@ -42,17 +43,17 @@
           </div>
         </div>
       </div>
-      <div class="nav-2">
+      <nav class="nav-2">
         <div class="container">
-          <div class="navigation-icons">
-            <a href="#news">Todos departamentos</a>
-            <a href="#news">Ferramentas</a>
-            <a href="#news">Acessórios</a>
-            <a href="#news">Área Bosch</a>
-            <a href="#news">Área DeWalt</a>
-          </div>
+            <div class="navigation-icons">
+                <a href="#news">Todos departamentos</a>
+                <a href="#news">Ferramentas</a>
+                <a href="#news">Acessórios</a>
+                <a href="#news">Área Bosch</a>
+                <a href="#news">Área DeWalt</a>
+            </div>
         </div>
-      </div>
+    </nav>    
       <div class="carrousel_cont">
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
           <ol class="carousel-indicators">
@@ -255,7 +256,6 @@
         <div class="btn_contato">
           <button class="btn_footer">Clique aqui</button>
         </div>
-        <div class="linha"></div>
         <p>Footer</p>
         <div class="footer_infos">
           <div class="slogam">
@@ -318,7 +318,6 @@
             </div>
           </div>
         </div>
-        <div class="linha"></div>
         <div class="cop">
         <a href=""><p>Projeto Integrador</p></a>
         <p>&COPY;2024</p>
@@ -332,4 +331,10 @@
       </div>
     </footer>
   </body>
+  <script>
+    const buttonHome = document.querySelector('.btn_footer');
+  buttonHome.addEventListener('click', function() {
+      window.location.href = 'speakUs.html'; 
+  });
+  </script>
 </html>
