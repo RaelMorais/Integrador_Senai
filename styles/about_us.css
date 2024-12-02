@@ -110,7 +110,7 @@
   .img_turma{
       width: 1080px;
       height: 600px;
-      background-color: #4CAF50;
+      /* background-color: #4CAF50; */
       color: white;
       text-align: center;
       display: flex;
@@ -259,12 +259,12 @@
 
 }
 .purpose_info{
-  background-color: #04BF9D;
+  /* background-color: #04BF9D; */
   height: 400px;
   width: 400px;
 }
 .img_purpose{
-  background-color: #E15CF2;
+  /* background-color: #E15CF2; */
   height: 300px;
 }
 .purpose_text{
@@ -275,7 +275,7 @@
 }
 .purpose_text p{
   font-size: 15px;
-  max-width: 200px;
+  max-width: 500px;
   line-height: 15px;
   font-weight: 400;
 }
@@ -310,5 +310,6 @@
 }
 .gracias{
   height: 300px;
-  background-color: #04B2D9;
+  /* background-color: #04B2D9; */
+  background-image: url("../images/about_us_src/gracias.svg");
 }
