@@ -471,20 +471,20 @@
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
+        margin-bottom: 20px;
     }
     .department {
-        width: 12%;
-        background-color: #fff;
-        border-radius: 8px;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        width: 250px;
+        /* border-radius: 1px; */
+        /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
         text-align: center;
         padding: 10px;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
     }
     .department img {
         width: 100%;
-        height: auto;
-        border-radius: 8px;
+        height: 100%;
+        border-radius: 4px;
     }
     .department p {
         margin: 10px 0 0;
