@@ -1,14 +1,16 @@
 export const database = [ /* "Banco de dados" de produtos comercializados no site */
     {
         codigoProduto:1,
-        tituloProduto:"Furadeira e Parafusadeira de Impacto a Bateria Bosch com Carregador e Bateria 18V 1/2 GSB 180-Li Bivolt", 
+        tituloProduto:"DEWALT Parafusadeira e Furaderia de 1/2 Pol. (13mm) Brushless Motor a Bateria 20V MAX* Ion-Litio com 2 Baterias 2.0Ah e Carregador Bivolt e Maleta DCD7771D2 ", 
         preco: 620.00, 
-        descricao:"Para furar madeiras, metais e alvenaria, a Furadeira e Parafusadeira GSB 180-Li é a solução ideal! Com o maior torque da categoria, baixa manutenção e a maior resistência se comparar com os principais concorrentes, é sinônimo de máxima performance com o melhor custo benefício.",
+        descricao:"Parafusadeira e Furadeira DEWALT com a tecnologia sem escovas de carvão (BRUSHLESS) sem fio de 20V MAX** com 2 Baterias e Carregador Bivolt que pode ser usado com 220V e 127V. Conta com muito mais eficiência através de mais tempo de uso e menos manutenções.",
         imagemProduto: {
-            img1:"./images/products/prod01/img1.png",
-            img2:"./images/products/prod01/img2.png",
-            img3:"./images/products/prod01/img3.png",
-            img4:"./images/products/prod01/img4.png",
+            img1:"./images/dewalt_products/dw-1.jpg",
+            img2:"./images/dewalt_products/dw_2.jpg",
+            img3:"./images/dewalt_products/dw-3.jpg",
+            img4:"./images/dewalt_products/dw-4.jpg",
+            img5:"./images/dewalt_products/dw-5.jpg",
+            
 
         },
         categoriaProduto: 'Ferramentas',

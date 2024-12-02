@@ -74,11 +74,13 @@
         width: 700px;
         height: 35px;
         font-size: 20px;
-        border-radius: 5px;
-        border: 1px solid black;
+        border-radius: 1px;
+        outline: none;
+        border: none;
+        /* border: 1px solid black; */
+        background-color: rgb(230, 230, 230);
         box-shadow: none; 
         outline: none; 
-        background-color: rgb(219, 219, 219);
         padding-left: 10px;   
     }
     
@@ -171,7 +173,7 @@
         
         .box1 p{
             font-size: 30px;
-            color: white;
+            color: rgb(0, 0, 0);
             font-weight: bold;
             margin-top: 25%;
             text-align: center;
@@ -229,7 +231,7 @@
         
         .box4 p{
             font-size: 30px;
-            color: white;
+            color: rgb(0, 0, 0);
             font-weight: bold;
             margin-top: 25%;
             text-align: center;
