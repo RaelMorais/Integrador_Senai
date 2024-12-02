@@ -111,6 +111,7 @@
             z-index: 2;
         }
         .navigation-icons{
+            list-style-type: none;
         margin-top: -40px;
         height: auto;
         font-size: 20px;
