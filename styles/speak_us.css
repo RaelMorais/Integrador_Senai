@@ -25,7 +25,6 @@
 .card_help{
     border-radius: 5px;
     height: 500px;
-    background-color: blue;
     width: 380px;
 }
 .card_help:hover{
@@ -35,7 +34,6 @@
     margin-top: 30px;
     width: 100%;
     height: 250px;
-    background-color: aqua;
 }
 
 .FAQ_review{
