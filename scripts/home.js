@@ -1,4 +1,4 @@
-// Importação da base de dados e das funçoes
+
 
 import { database } from "./database.js";
 import { getProdId, loadProducts} from "./functions.js";

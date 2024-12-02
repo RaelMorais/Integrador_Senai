@@ -3,7 +3,7 @@ let cartItens = JSON.parse(localStorage.getItem("listaCompras"))
 
 
 let pedidos = JSON.parse(localStorage.getItem("pedidos"))
-if (pedidos == null){ /* Criando uma lista de pedidos vazia*/
+if (pedidos == null){ 
     pedidos = []
 }
 
