@@ -456,264 +456,142 @@ export const database = [
     // MAIS VENDIDOS INICIO
 
     {
-        codigoProduto:5,
-        tituloProduto:"Furadeira e Parafusadeira Bosch Brushless de Impacto a Bateria 12V 3/8 12V GSB 12V-30", 
-        preco: 300.00, 
-        descricao:"A Parafusadeira e Furadeira de Impacto a Bateria de 3/8 Bosch GSB 12V-30, 12V, possui motor sem escovas de carvão a um preço que você nunca viu! Além disso, vem com sistema inteligente ECP que protege eletronicamente as células da bateria.",
+        codigoProduto: 102,
+        tituloProduto: "Furadeira e Parafusadeira Bosch Brushless de Impacto a Bateria 12V 3/8 12V GSB 12V-30",
+        preco: 350.00,
+        descricao: "Furadeira e Parafusadeira Bosch GSB 12V-30 com motor sem escovas de carvão, ideal para perfuração e fixação de parafusos, com bateria de 12V e sistema ECP para proteger as células da bateria.",
         imagemProduto: {
-            img1:"./images/products/prod02/img1.png",
-            img2:"./images/products/prod02/img2.png",
-            img3:"./images/products/prod02/img3.png",
-            img4:"./images/products/prod02/img4.png",
-
+            img1: "./images/products/prod02/img1.png",
+            img2: "./images/products/prod02/img2.png",
+            img3: "./images/products/prod02/img3.png",
+            img4: "./images/products/prod02/img4.png"
         },
-        categoriaProduto: 'Ferramentas',
-        classificacaoProduto:"Mais_Vendidos",
+        categoriaProduto: "Ferramentas",
+        classificacaoProduto: "Mais_Vendidos",
         exibirHome: true
     },
     {
-        codigoProduto:6,
-        tituloProduto:"Furadeira e Parafusadeira Bosch Brushless de Impacto a Bateria 12V 3/8 12V GSB 12V-30", 
-        preco: 300.00, 
-        descricao:"A Parafusadeira e Furadeira de Impacto a Bateria de 3/8 Bosch GSB 12V-30, 12V, possui motor sem escovas de carvão a um preço que você nunca viu! Além disso, vem com sistema inteligente ECP que protege eletronicamente as células da bateria.",
-        imagemProduto: {
-            img1:"./images/products/prod02/img1.png",
-            img2:"./images/products/prod02/img2.png",
-            img3:"./images/products/prod02/img3.png",
-            img4:"./images/products/prod02/img4.png",
-
-        },
-        categoriaProduto: 'Ferramentas',
-        classificacaoProduto:"Mais_Vendidos",
-        exibirHome: true
-    },
-    {
-        codigoProduto:7,
-        tituloProduto:"Furadeira e Parafusadeira Bosch Brushless de Impacto a Bateria 12V 3/8 12V GSB 12V-30", 
-        preco: 300.00, 
-        descricao:"A Parafusadeira e Furadeira de Impacto a Bateria de 3/8 Bosch GSB 12V-30, 12V, possui motor sem escovas de carvão a um preço que você nunca viu! Além disso, vem com sistema inteligente ECP que protege eletronicamente as células da bateria.",
-        imagemProduto: {
-            img1:"./images/products/prod02/img1.png",
-            img2:"./images/products/prod02/img2.png",
-            img3:"./images/products/prod02/img3.png",
-            img4:"./images/products/prod02/img4.png",
-
-        },
-        categoriaProduto: 'Ferramentas',
-        classificacaoProduto:"Mais_Vendidos",
-        exibirHome: true
-    },
-    {
-        codigoProduto:8,
-        tituloProduto:"Furadeira e Parafusadeira Bosch Brushless de Impacto a Bateria 12V 3/8 12V GSB 12V-30", 
-        preco: 300.00, 
-        descricao:"A Parafusadeira e Furadeira de Impacto a Bateria de 3/8 Bosch GSB 12V-30, 12V, possui motor sem escovas de carvão a um preço que você nunca viu! Além disso, vem com sistema inteligente ECP que protege eletronicamente as células da bateria.",
-        imagemProduto: {
-            img1:"./images/products/prod02/img1.png",
-            img2:"./images/products/prod02/img2.png",
-            img3:"./images/products/prod02/img3.png",
-            img4:"./images/products/prod02/img4.png",
-
-        },
-        categoriaProduto: 'Ferramentas',
-        classificacaoProduto:"Mais_Vendidos",
-        exibirHome: true
-    },
-    {
-        codigoProduto:9,
-        tituloProduto:"Furadeira e Parafusadeira Bosch Brushless de Impacto a Bateria 12V 3/8 12V GSB 12V-30", 
-        preco: 300.00, 
-        descricao:"A Parafusadeira e Furadeira de Impacto a Bateria de 3/8 Bosch GSB 12V-30, 12V, possui motor sem escovas de carvão a um preço que você nunca viu! Além disso, vem com sistema inteligente ECP que protege eletronicamente as células da bateria.",
-        imagemProduto: {
-            img1:"./images/products/prod02/img1.png",
-            img2:"./images/products/prod02/img2.png",
-            img3:"./images/products/prod02/img3.png",
-            img4:"./images/products/prod02/img4.png",
-
-        },
-        categoriaProduto: 'Ferramentas',
-        classificacaoProduto:"Mais_Vendidos",
-        exibirHome: true
-    },
-    {
-        codigoProduto: 30,
-        tituloProduto: "Furadeira Bosch 18V com 2 Baterias Lithium-Ion e Maleta",
+        codigoProduto: 215,
+        tituloProduto: "Parafusadeira Impacto Bosch 18V com 2 Baterias e Carregador",
         preco: 450.00,
-        descricao: "A Furadeira Bosch 18V é ideal para perfuração em madeira, concreto e metal, com duas baterias Lithium-Ion de longa duração. Acompanha maleta prática para transporte e armazenamento.",
+        descricao: "Parafusadeira Bosch 18V, ideal para fixação rápida e eficiente. Acompanha 2 baterias de longa duração e carregador rápido.",
         imagemProduto: {
-            img1: "./images/products/prod02/img1.png",
-            img2: "./images/products/prod02/img1.png",
-            img3: "./images/products/prod02/img1.png",
-            img4: "./images/products/prod02/img1.png",
+            img1: "https://ferramentasgerais.vteximg.com.br/arquivos/ids/757852/Parafusadeira-furadeira-de-impacto-18V-com-2-baterias-GSB-18V-50---BOSCH---06019H51E0000---BOSCH.jpg?v=638277330785430000",
+            img2: "./images/products/prod03/img2.png",
+            img3: "./images/products/prod03/img3.png",
+            img4: "./images/products/prod03/img4.png"
         },
-        categoriaProduto: Ferramentas,
-        classificacaoProduto: Mais_Vendidos,
+        categoriaProduto: "Ferramentas",
+        classificacaoProduto: "Mais_Vendidos",
         exibirHome: true
     },
     {
-        codigoProduto: 31,
-        tituloProduto: "Parafusadeira e Furadeira 12V Bosch Com 3 Velocidades",
-        preco: 350.00,
-        descricao: "A Parafusadeira Bosch 12V oferece 3 velocidades, ideal para diversos tipos de parafusamento e perfuração. Compacta e leve, é perfeita para trabalhos em espaços pequenos.",
-        imagemProduto: {
-            img1: "./images/products/prod02/img1.png",
-            img2: "./images/products/prod02/img1.png",
-            img3: "./images/products/prod02/img1.png",
-            img4: "./images/products/prod02/img1.png",
-        categoriaProduto: Ferramentas,
-        classificacaoProduto: Mais_Vendidos,
-        exibirHome: true
-    },
-    {
-        codigoProduto: 32,
-        tituloProduto: "Kit Parafusadeira e Furadeira Bosch 18V com Acessórios",
-        preco: 520.00,
-        descricao: "O kit Bosch 18V contém uma parafusadeira e uma furadeira de alta performance, com uma seleção de acessórios essenciais para quem trabalha com reparos e montagem.",
-        imagemProduto: {
-            img1: "./images/products/prod02/img1.png",
-            img2: "./images/products/prod02/img1.png",
-            img3: "./images/products/prod02/img1.png",
-            img4: "./images/products/prod02/img1.png",
-        },
-        categoriaProduto: Ferramentas,
-        classificacaoProduto: Mais_Vendidos,
-        exibirHome: true
-    },
-    {
-        codigoProduto: 33,
-        tituloProduto: "Furadeira de Impacto Bosch 650W com Mandril de 13mm",
+        codigoProduto: 347,
+        tituloProduto: "Serra Tico-Tico Bosch com 6 Velocidades",
         preco: 280.00,
-        descricao: "A Furadeira de Impacto Bosch 650W possui mandril de 13mm, ideal para perfuração em materiais como concreto, madeira e metal. Potente e fácil de manusear.",
+        descricao: "Serra Tico-Tico Bosch, ideal para cortes rápidos e precisos. Possui 6 velocidades para diferentes materiais e espessuras.",
         imagemProduto: {
-            img1: "./images/products/prod02/img1.png",
-            img2: "./images/products/prod02/img1.png",
-            img3: "./images/products/prod02/img1.png",
-            img4: "./images/products/prod02/img1.png",
+            img1: "https://d365e82sgxmduv.cloudfront.net/Custom/Content/Products/30/44/3044764_serra-tico-tico-bosch-gst-680-127v-500-watts-com-6-velocidades-06015b40d0-000-bosch_m7_638536250127633666.webp",
+            img2: "./images/products/prod04/img2.png",
+            img3: "./images/products/prod04/img3.png",
+            img4: "./images/products/prod04/img4.png"
         },
-        categoriaProduto: Ferramentas,
-        classificacaoProduto: Mais_Vendidos,
+        categoriaProduto: "Ferramentas",
+        classificacaoProduto: "Mais_Vendidos",
         exibirHome: true
     },
     {
-        codigoProduto: 34,
-        tituloProduto: "Parafusadeira Bosch 14V com 2 Baterias e Estojo",
-        preco: 380.00,
-        descricao: "A Parafusadeira Bosch 14V acompanha 2 baterias e estojo de transporte. Ideal para serviços de montagem e reparos com mais conforto e praticidade.",
+        codigoProduto: 482,
+        tituloProduto: "Martelo Demolidor Bosch 10kg para Construção Pesada",
+        preco: 650.00,
+        descricao: "Martelo demolidor Bosch, perfeito para construção pesada e demolição. Potência ideal para materiais resistentes, como concreto e alvenaria.",
         imagemProduto: {
-            img1: "./images/products/prod02/img1.png",
-            img2: "./images/products/prod02/img1.png",
-            img3: "./images/products/prod02/img1.png",
-            img4: "./images/products/prod02/img1.png",
+            img1: "https://static.felap.com.br/public/felap/imagens/produtos/martelo-demolidor-rompedor-2000w-220v-gsh-27-vc-bosch-061130a0e0-6553ae7d8b526.jpg",
+            img2: "./images/products/prod05/img2.png",
+            img3: "./images/products/prod05/img3.png",
+            img4: "./images/products/prod05/img4.png"
         },
-        categoriaProduto: Ferramentas,
-        classificacaoProduto: Mais_Vendidos,
+        categoriaProduto: "Ferramentas",
+        classificacaoProduto: "Mais_Vendidos",
         exibirHome: true
     },
     {
-        codigoProduto: 35,
-        tituloProduto: "Furadeira e Parafusadeira Makita 18V com Maleta",
-        preco: 530.00,
-        descricao: "A Furadeira e Parafusadeira Makita 18V é compacta e potente, equipada com 2 baterias de Lithium-Ion e uma maleta de transporte para maior praticidade.",
+        codigoProduto: 553,
+        tituloProduto: "Furadeira e Parafusadeira DeWalt 20V XR Brushless",
+        preco: 400.00,
+        descricao: "Furadeira e Parafusadeira DeWalt 20V com motor brushless, mais potente e durável. Ideal para diversos trabalhos em madeira, metal e concreto.",
         imagemProduto: {
-            img1: "./images/products/prod02/img1.png",
-            img2: "./images/products/prod02/img1.png",
-            img3: "./images/products/prod02/img1.png",
-            img4: "./images/products/prod02/img1.png",
+            img1: "https://panoramahomecenter.vtexassets.com/arquivos/ids/429923/Furadeira_e_parafusadeira_20v_impacto_12_dcd709d2_atomic_carregador_bivolt_dewalt_7819140.jpg?v=637796820839130000",
+            img2: "./images/products/prod06/img2.png",
+            img3: "./images/products/prod06/img3.png",
+            img4: "./images/products/prod06/img4.png"
         },
-        categoriaProduto: Ferramentas,
-        classificacaoProduto: Mais_Vendidos,
+        categoriaProduto: "Ferramentas",
+        classificacaoProduto: "Mais_Vendidos",
         exibirHome: true
     },
     {
-        codigoProduto: 36,
-        tituloProduto: "Furadeira Bosch 750W com Velocidade Variável",
-        preco: 390.00,
-        descricao: "A Furadeira Bosch 750W oferece velocidade variável para diferentes materiais. Ideal para quem busca alta performance em perfurações.",
-        imagemProduto: {
-            img1: "./images/products/prod02/img1.png",
-            img2: "./images/products/prod02/img1.png",
-            img3: "./images/products/prod02/img1.png",
-            img4: "./images/products/prod02/img1.png",
-        },
-        categoriaProduto: Ferramentas,
-        classificacaoProduto: Mais_Vendidos,
-        exibirHome: true
-    },
-    {
-        codigoProduto: 37,
-        tituloProduto: "Parafusadeira Bosch 10V Compacta e Potente",
-        preco: 230.00,
-        descricao: "Parafusadeira Bosch 10V é compacta e potente, perfeita para trabalhos em locais apertados e com precisão.",
-        imagemProduto: {
-            img1: "./images/products/prod02/img1.png",
-            img2: "./images/products/prod02/img1.png",
-            img3: "./images/products/prod02/img1.png",
-            img4: "./images/products/prod02/img1.png",
-        },
-        categoriaProduto: Ferramentas,
-        classificacaoProduto: Mais_Vendidos,
-        exibirHome: true
-    },
-    {
-        codigoProduto: 38,
-        tituloProduto: "Furadeira de Impacto Stanley 600W com Mandril de 13mm",
-        preco: 250.00,
-        descricao: "Furadeira de Impacto Stanley 600W com mandril de 13mm, ideal para uso intenso em perfurações em concreto, madeira e metal.",
-        imagemProduto: {
-            img1: "./images/products/prod02/img1.png",
-            img2: "./images/products/prod02/img1.png",
-            img3: "./images/products/prod02/img1.png",
-            img4: "./images/products/prod02/img1.png",
-        },
-        categoriaProduto: Ferramentas,
-        classificacaoProduto: Mais_Vendidos,
-        exibirHome: true
-    },
-    {
-        codigoProduto: 39,
-        tituloProduto: "Parafusadeira e Furadeira Black & Decker 12V Lithium",
-        preco: 300.00,
-        descricao: "A Parafusadeira e Furadeira Black & Decker 12V com tecnologia Lithium oferece mais autonomia e praticidade para os seus projetos.",
-        imagemProduto: {
-            img1: "./images/products/prod02/img1.png",
-            img2: "./images/products/prod02/img1.png",
-            img3: "./images/products/prod02/img1.png",
-            img4: "./images/products/prod02/img1.png",
-        },
-        categoriaProduto: Ferramentas,
-        classificacaoProduto: Mais_Vendidos,
-        exibirHome: true
-    },
-    {
-        codigoProduto: 40,
-        tituloProduto: "Furadeira Makita 710W com Mandril Rápido",
+        codigoProduto: 618,
+        tituloProduto: "Parafusadeira e Furadeira Makita 18V com Carregador",
         preco: 350.00,
-        descricao: "Furadeira Makita 710W com mandril rápido de 13mm, ideal para perfurações rápidas e precisas em diversos tipos de materiais.",
+        descricao: "Parafusadeira e Furadeira Makita, com motor de alta performance e 18V de potência, acompanha 1 bateria e carregador.",
         imagemProduto: {
-            img1: "./images/products/prod02/img1.png",
-            img2: "./images/products/prod02/img1.png",
-            img3: "./images/products/prod02/img1.png",
-            img4: "./images/products/prod02/img1.png",
+            img1: "https://images.tcdn.com.br/img/img_prod/1100542/parafusadeira_furadeira_de_impacto_1_2_18v_brushless_dhp485z_makita_14351_2_4f1ca4819390008036010aee1bc594a3.jpg",
+            img2: "./images/products/prod07/img2.png",
+            img3: "./images/products/prod07/img3.png",
+            img4: "./images/products/prod07/img4.png"
         },
-        categoriaProduto: Ferramentas,
-        classificacaoProduto: Mais_Vendidos,
+        categoriaProduto: "Ferramentas",
+        classificacaoProduto: "Mais_Vendidos",
         exibirHome: true
     },
     {
-        codigoProduto: 41,
-        tituloProduto: "Furadeira e Parafusadeira Bosch 18V com 2 Baterias Lithium",
-        preco: 480.00,
-        descricao: "Furadeira e Parafusadeira Bosch 18V, com 2 baterias Lithium e mandril de 13mm, perfeita para todos os tipos de perfuração e parafusamento.",
+        codigoProduto: 734,
+        tituloProduto: "Chave de Impacto Bosch 1/2” 18V",
+        preco: 380.00,
+        descricao: "Chave de Impacto Bosch, com 18V e 1/2” de torque, ideal para aperto de parafusos em diversos materiais, com design ergonômico e de fácil manuseio.",
         imagemProduto: {
-            img1: "./images/products/prod02/img1.png",
-            img2: "./images/products/prod02/img1.png",
-            img3: "./images/products/prod02/img1.png",
-            img4: "./images/products/prod02/img1.png",
+            img1: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_pC-KP5bk1DuSRxCS7ZKKwvW0KLqBcYIa3A&s",
+            img2: "./images/products/prod08/img2.png",
+            img3: "./images/products/prod08/img3.png",
+            img4: "./images/products/prod08/img4.png"
         },
-        categoriaProduto: Ferramentas,
-        classificacaoProduto: Mais_Vendidos,
+        categoriaProduto: "Ferramentas",
+        classificacaoProduto: "Mais_Vendidos",
+        exibirHome: true
+    },
+    {
+        codigoProduto: 812,
+        tituloProduto: "Alicate de Pressão Irwin 10 Pol.",
+        preco: 100.00,
+        descricao: "Alicate de Pressão Irwin 10 Pol., ideal para apertar e segurar com firmeza. A mandíbula tem ajuste preciso para diferentes tamanhos.",
+        imagemProduto: {
+            img1: "https://images.tcdn.com.br/img/img_prod/469103/alicate_de_pressao_10_mordente_curvo_grip_10wr_irwin_1073255_1_20170710145459.jpg",
+            img2: "./images/products/prod09/img2.png",
+            img3: "./images/products/prod09/img3.png",
+            img4: "./images/products/prod09/img4.png"
+        },
+        categoriaProduto: "Ferramentas",
+        classificacaoProduto: "Mais_Vendidos",
+        exibirHome: true
+    },
+    {
+        codigoProduto: 923,
+        tituloProduto: "Lixadeira Bosch 220V 5 Pol.",
+        preco: 220.00,
+        descricao: "Lixadeira Bosch 220V 5 Pol., com design compacto e ergonômico, ideal para acabamento de superfícies de madeira e metais.",
+        imagemProduto: {
+            img1: "https://img.lojadomecanico.com.br/IMAGENS/21/222/168340/1728308033534.JPG",
+            img2: "./images/products/prod10/img2.png",
+            img3: "./images/products/prod10/img3.png",
+            img4: "./images/products/prod10/img4.png"
+        },
+        categoriaProduto: "Ferramentas",
+        classificacaoProduto: "Mais_Vendidos",
         exibirHome: true
     }
+    
+ 
 
     // MAIS VENDIDOS FIM
 ]
