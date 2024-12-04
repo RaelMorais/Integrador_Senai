@@ -22,7 +22,7 @@
       <div class="container">
         <div class="navigation-superior">
           <div class="logo-container">
-            <img src="./images/logo_mange.png" alt="Logo" class="logo">
+            <img src="./images/logo_mange.png" alt="Logo" class="logo" id="logoImage">
           </div>
           <div class="pesquisa">
             <input class="input_pesquisa" type="text" placeholder="Pesquisar">
@@ -38,11 +38,11 @@
     <nav class="nav-2">
       <div class="container">
           <ul class="navigation-icons">
-              <li><a href="./landingpage/carregamento_all_products.html">Todos os produtos</a></li>
-              <li><a href="#news">Ferramentas</a></li>
-              <li><a href="#news">Acessórios</a></li>
-              <li><a href="#news">Ajuda</a></li>
-              <li><a href="#news">Sobre nós</a></li>
+            <li><a href="./home.html">Inicio</a></li>
+            <li><a href="./landingpage/carregamento_all_products.html">Todos os itens</a></li>
+            <li><a href="./speakUs.html">Fale conosco</a></li>
+            <li><a href="./aboutUs.html">Sobre nós</a></li>
+            <li><a href="./adm.html">Administração</a></li>
           </ul>
       </div>
   </nav>
@@ -249,5 +249,11 @@
   </footer>
    
 </body>
-
+<script>
+    const logoImage = document.getElementById('logoImage');
+logoImage.addEventListener('click', function() {
+  console.log("Eventlist para a tela inicial")
+    window.location.href = 'home.html';  
+});
+</script>
 </html>
