@@ -96,26 +96,26 @@
       <section class="main-content container">
       <section class="principal_box">
         <div class="container2">
-          <div class="box box1">
+          <div class="box box1" id="bosch">
             <div class="img">
               <!-- <p>
                 Bosch
               </p> -->
             </div>
           </div>
-          <div class="box box2">
+          <div class="box box2" id="dewalt">
             <!-- <p style="color: rgb(255, 230, 3);">
               DeWalt
             </p> -->
           </div>
-          <div class="box box3">
+          <div class="box box3" id="makita">
             <div class="img">
               <!-- <p>
                 Makita
               </p> -->
             </div>
           </div>
-          <div class="box box4">
+          <div class="box box4" id="skil">
             <div class="img">
               <!-- <p>
                 Skill
@@ -302,6 +302,26 @@
     const buttonHome = document.querySelector('.btn_footer');
   buttonHome.addEventListener('click', function() {
       window.location.href = 'speakUs.html'; 
+  });
+
+  const boschItem = document.getElementById("bosch");
+  boschItem.addEventListener('click', function(){
+    window.location.href = './landingpage/carregamento_bosch.html';
+  });
+
+  const dewaltItem = document.getElementById("dewalt");
+  dewaltItem.addEventListener('click', function(){
+    window.location.href = './landingpage/carregamento_dewalt.html';
+  });
+
+  const makitatItem = document.getElementById("makita");
+  makitatItem.addEventListener('click', function(){
+    window.location.href = './landingpage/carregamento_makita.html';
+  });
+
+  const skilltItem = document.getElementById("skil");
+  skilltItem.addEventListener('click', function(){
+    window.location.href = './landingpage/carregamento_skil.html';
   });
   </script>
 </html>
