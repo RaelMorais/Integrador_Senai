@@ -12,15 +12,18 @@
 }
 
 .cart_item_main_img {
-    flex-basis: 180px;
+    flex-basis: 100px;
     border-radius: 5px;
 }
 
 .cart_item_main_img img{
-    width: 120px;
+    width: 100px;
     object-fit: cover;
 }
-
+.cart_item_info{
+    width: 300px;
+    margin-left: -200px;
+}
 .cart_item_info p:first-child {
     font-size: 0.875em;
     font-weight: 700;

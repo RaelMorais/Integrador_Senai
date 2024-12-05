@@ -24,7 +24,7 @@
             <div class="container">
                 <div class="navigation-superior">
                     <div class="logo-container">
-                        <img src="./images/logo_mange.png" alt="Logo" class="logo">
+                        <img src="./images/logo_mange.png" alt="Logo" class="logo" id="logoImage">
                     </div>
                     <div class="pesquisa">
                         <input class="input_pesquisa" type="text" placeholder="Pesquisar">
@@ -37,17 +37,17 @@
                 </div>
             </div>
         </div>
-        <div class="nav-2"> <!-- Depois mudar todos por NAV  -->
+        <nav class="nav-2">
             <div class="container">
-                <div class="navigation-icons">
-                    <a href="#news">Todos departamentos</a>
-                    <a href="#news">Ferramentas</a>
-                    <a href="#news">Acessórios</a>
-                    <a href="#news">Área Bosch</a>
-                    <a href="#news">Área DeWalt</a>
-                </div>
+                <ul class="navigation-icons">
+                    <li><a href="./home.html">Inicio</a></li>
+                    <li><a href="./landingpage/carregamento_all_products.html">Todos os itens</a></li>
+                    <li><a href="./speakUs.html">Fale conosco</a></li>
+                    <li><a href="./aboutUs.html">Sobre nós</a></li>
+                    <li><a href="./adm.html">Administração</a></li>
+                </ul>
             </div>
-        </div>
+        </nav>
     </header>
     <main>
         <section class="container_fale_conosco">
@@ -487,5 +487,11 @@ btnFooter.addEventListener('click', function() {
         top: 0, 
         behavior: 'smooth' 
     });
+});
+
+const logoImage = document.getElementById('logoImage');
+logoImage.addEventListener('click', function() {
+  console.log("Eventlist para a tela inicial")
+    window.location.href = 'home.html';  
 });
 </script>

@@ -30,13 +30,13 @@
         <div class="container">
           <div class="navigation-superior">
             <div class="logo-container">
-              <img src="./images/logo_mange.png" alt="Logo" class="logo">
+              <img src="./images/logo_mange.png" alt="Logo" class="logo" id="logoImage">
             </div>
             <div class="pesquisa">
               <input class="input_pesquisa" type="text" placeholder="Pesquisar">
             </div>
             <div class="icones">
-              <i class="fa fa-solid fa-user"></i>
+              <p id="adm_ref"><i class="fa fa-solid fa-user"></i></p>
               <i class="fa fa-solid fa-heart"></i>
               <i class="fa fa-solid fa-cart-shopping"></i>
             </div>
@@ -46,11 +46,11 @@
       <nav class="nav-2">
         <div class="container">
             <ul class="navigation-icons">
-                <li><a href="./products.html">Todos departamentos</a></li>
-                <li><a href="#news">Ferramentas</a></li>
-                <li><a href="#news">Acessórios</a></li>
-                <li><a href="#news">Área Bosch</a></li>
-                <li><a href="#news">Área DeWalt</a></li>
+              <li><a href="./home.html">Inicio</a></li>
+                <li><a href="./landingpage/carregamento_all_products.html">Todos os itens</a></li>
+                <li><a href="./speakUs.html">Fale conosco</a></li>
+                <li><a href="./aboutUs.html">Sobre nós</a></li>
+                <li><a href="./adm.html">Administração</a></li>
             </ul>
         </div>
     </nav>
@@ -96,26 +96,26 @@
       <section class="main-content container">
       <section class="principal_box">
         <div class="container2">
-          <div class="box box1">
+          <div class="box box1" id="bosch">
             <div class="img">
               <!-- <p>
                 Bosch
               </p> -->
             </div>
           </div>
-          <div class="box box2">
+          <div class="box box2" id="dewalt">
             <!-- <p style="color: rgb(255, 230, 3);">
               DeWalt
             </p> -->
           </div>
-          <div class="box box3">
+          <div class="box box3" id="makita">
             <div class="img">
               <!-- <p>
                 Makita
               </p> -->
             </div>
           </div>
-          <div class="box box4">
+          <div class="box box4" id="skil">
             <div class="img">
               <!-- <p>
                 Skill
@@ -286,9 +286,9 @@
           </div>
         </div>
         <div class="cop">
-        <a href=""><p>Projeto Integrador</p></a>
+        <a href="./aboutUs.html"><p>Projeto Integrador</p></a>
         <p>&COPY;2024</p>
-        <a href=""><p>Sobre nós</p></div></a>
+        <a href="./aboutUs.html"><p>Sobre nós</p></div></a>
       </div>
       </div>
       <div class="subtfooter">
@@ -303,5 +303,30 @@
   buttonHome.addEventListener('click', function() {
       window.location.href = 'speakUs.html'; 
   });
+
+  const boschItem = document.getElementById("bosch");
+  boschItem.addEventListener('click', function(){
+    window.location.href = './landingpage/carregamento_bosch.html';
+  });
+
+  const dewaltItem = document.getElementById("dewalt");
+  dewaltItem.addEventListener('click', function(){
+    window.location.href = './landingpage/carregamento_dewalt.html';
+  });
+
+  const makitatItem = document.getElementById("makita");
+  makitatItem.addEventListener('click', function(){
+    window.location.href = './landingpage/carregamento_makita.html';
+  });
+
+  const skilltItem = document.getElementById("skil");
+  skilltItem.addEventListener('click', function(){
+    window.location.href = './landingpage/carregamento_skil.html';
+  });
+  const logoImage = document.getElementById('logoImage');
+logoImage.addEventListener('click', function() {
+  console.log("Eventlist para a tela inicial")
+    window.location.href = 'home.html';  
+});
   </script>
 </html>
