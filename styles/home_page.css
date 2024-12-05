@@ -1,4 +1,7 @@
 
+body{
+  background-color: #f4f7fc;
+}
 main{
     background-color: #000000;
 }
@@ -185,10 +188,11 @@ nav {
 
 .opinion_review{
     margin-top: 100px;
-    height: 500px;
+    height: 700px;
 }
 .opinion_review h1{
     text-align: center;
+    padding: 30px;
 }
 .opinion_review h1{
     text-align: center;
@@ -377,15 +381,18 @@ nav {
     font-size: 16px;
     color: #6c757d;
 }
-
+footer{
+  width: 1080px;
+  margin-left: auto;
+  margin-right: auto;
+}
 .footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 250px;
-  margin-top: 50px;
+  margin-top: 0px;
   padding: 20px 40px;
-  background-color: #f4f7fc;
   border-top: 1px solid #ddd;
 }
 
@@ -496,3 +503,46 @@ nav {
   background-color: #e0e7ff;
   padding: 5px;
 } */
+.testimonials {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+.testimonial {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 300px;
+  box-sizing: border-box;
+}
+.testimonial img {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+.testimonial .user {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.testimonial .user .name {
+  font-weight: 500;
+  color: #333;
+}
+.testimonial .user .handle {
+  color: #777;
+  margin-left: 5px;
+}
+.testimonial .content {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: px;
+}
+.testimonial .date {
+  /* margin-top: 2000px; */
+  font-size: 12px;
+  color: #999;
+}
