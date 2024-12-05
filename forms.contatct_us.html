@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/contato.css">
+    <title>Contate-nos</title>
+</head>
+<body>
+    <header>
+        <div class="container_contacts_us">
+            <input type="checkbox" class="checkbox" id="dark_mode">
+            <label  class="label" for="dark_mode">
+                <div class="ball"></div>
+            </label>
+    </div>
+    </header>
+    <main>
+        <h1>Nos contate</h1>
+        <div class="container">
+            <form action="">
+              <label for="fname">Nome</label>
+              <input type="text" id="fname" name="firstname" placeholder="Seu nome... Ex: João">
+          
+              <label for="lname">Sobrenome</label>
+              <input type="text" id="lname" name="lastname" placeholder="Seu sobre nome... Ex: Silva">
+
+              <label for="email">Seu melhor email</label>
+              <input type="text" id="mail" name="mail" placeholder="Seu melhor email">
+          
+          
+              <label for="service">Serviço</label>
+              <select id="service" name="service">
+                <option value="compra-produtos">Compra de Produtos</option>
+                <option value="assistencia-tecnica">Assistência Técnica</option>
+                <option value="consultoria">Consultoria em Ferramentas</option>
+                <option value="suporte">Suporte ao Cliente</option>
+              </select>              
+          
+              <label for="subject">Escreva</label>
+              <textarea id="subject" name="subject" placeholder="Fale sobre o seu problema..." style="height:45px"></textarea>
+          
+              <input type="submit" value="Submit">
+          
+            </form>
+          </div> 
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
+<script src="./scripts/dark_mode.js"></script>
+<script src="https://kit.fontawesome.com/998c60ef77.js" crossorigin="anonymous"></script>
