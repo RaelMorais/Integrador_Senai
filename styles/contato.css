@@ -17,7 +17,7 @@ body {
   }
 
   body.dark .container{
-    background-color: #666666;
+    /* background-color: #666666; */
   }
   .checkbox {
     opacity: 0;
@@ -77,8 +77,8 @@ input[type=text], select, textarea {
   }
   
   .container {
-    border-radius: 5px;
-    background-color: #f2f2f2;
+    border-radius: 10px;
+    /* background-color: #f2f2f2; */
     width: 1080px;
     margin-left: auto;
     margin-right: auto;
@@ -92,4 +92,7 @@ input[type=text], select, textarea {
     width: 600px;
     margin-left: auto;
     margin-right: auto;
+  }
+  .main{
+    background-color: transparent;
   }
