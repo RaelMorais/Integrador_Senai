@@ -3,21 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/contato.css">
-    <link rel="stylesheet" href="./styles/styles_israel.css">
-    <title>Contate-nos</title>
+    <link rel="stylesheet" href="styles/form_contato.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="shortcut icon" href="./images/new_mange_icon.png" type="image/x-icon">
+    <title>Nos contate</title>
 </head>
-<body>
+<body> 
     <header>
-        <div class="container_contacts_us">
-            <input type="checkbox" class="checkbox" id="dark_mode">
+        <div class="background_header">
+            <div class="background_image">
+                <img src="./images/back_ground.svg" alt="">
+            </div>
+            <div class="nav_header">
+                <input type="checkbox" class="checkbox" id="dark_mode">
             <label  class="label" for="dark_mode">
                 <div class="ball"></div>
             </label>
-    </div>
+            <img src="./images/logo_mange.png" alt="Logo mange">
+                <button class="back_to_home" id="back_button">Voltar</button>
+            </div>
+            <h1>Nos contate</h1>
+        </div>
     </header>
     <main class="main">
-        <h1>Nos contate</h1>
         <div class="container">
             <form action="">
               <label for="fname">Nome</label>
@@ -27,7 +35,7 @@
               <input type="text" id="lname" name="lastname" placeholder="Seu sobre nome... Ex: Silva">
 
               <label for="email">Seu melhor email</label>
-              <input type="text" id="mail" name="mail" placeholder="Seu melhor email">
+              <input type="email" id="mail" name="mail" placeholder="seuemail@mail.com">
           
           
               <label for="service">Serviço</label>
@@ -41,15 +49,46 @@
               <label for="subject">Escreva</label>
               <textarea id="subject" name="subject" placeholder="Fale sobre o seu problema..." style="height:45px"></textarea>
           
-              <input type="submit" value="Submit">
+              <input type="submit" value="Enviar">
           
             </form>
           </div> 
     </main>
     <footer>
-
-    </footer>
+        <div class="footer">
+        <div class="footer-left">
+          <div class="logo_footer">
+            <img src="./images/logo_mange.png" alt="Logo" class="logo-icon">
+          </div>
+          <p class="copyright">Copyright © 2024</p>
+          <p class="credits">
+            <a href="#" class="credits-link">Israel Santana</a> 
+          </p>
+        </div>
+        <div class="footer-right">
+          <ul class="footer-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Baixar documentação</a></li>
+            <li><a href="#">Contate-nos</a></li>
+          </ul>
+          <div class="social-links">
+            <div class="midia_social">
+            <i class="fa-brands fa-github"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+          </div>
+          </div>
+        </div>
+      </div>
+      </footer>
 </body>
+<script>
+    const chk = document.getElementById('dark_mode')
+chk.addEventListener('change', () => {
+  document.body.classList.toggle('dark')
+})
+const backButton = document.getElementById('back_button')
+backButton.addEventListener('click', function(){
+    window.location.href = "index.html"
+})
+</script>
 </html>
-<script src="./scripts/dark_mode.js"></script>
-<script src="https://kit.fontawesome.com/998c60ef77.js" crossorigin="anonymous"></script>
