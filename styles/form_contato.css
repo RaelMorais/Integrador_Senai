@@ -22,6 +22,15 @@ body{
 .back_to_home{
     height: 30px;
     width: 100px;
+    border: none;
+    border-radius: 3px;
+    background-color: #001aff;
+    color: white;
+    &:hover{
+      background-color: white;
+      color: #000000;
+      transition: 0.2s;
+    }
 }body {
     background-color: #fafafa;
     height: 100vh;

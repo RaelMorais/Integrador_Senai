@@ -15,12 +15,12 @@
                 <img src="./images/back_ground.svg" alt="">
             </div>
             <div class="nav_header">
+                <button class="back_to_home" id="back_button">Voltar</button>
+                <img src="./images/logo_mange.png" alt="Logo mange">
                 <input type="checkbox" class="checkbox" id="dark_mode">
             <label  class="label" for="dark_mode">
                 <div class="ball"></div>
             </label>
-            <img src="./images/logo_mange.png" alt="Logo mange">
-                <button class="back_to_home" id="back_button">Voltar</button>
             </div>
             <h1>Nos contate</h1>
         </div>
@@ -28,11 +28,11 @@
     <main class="main">
         <div class="container">
             <form action="">
-              <label for="fname">Nome</label>
-              <input type="text" id="fname" name="firstname" placeholder="Seu nome... Ex: João">
+              <label for="nome">Nome</label>
+              <input type="text" id="nome" name="nome" placeholder="Seu nome... Ex: João">
           
-              <label for="lname">Sobrenome</label>
-              <input type="text" id="lname" name="lastname" placeholder="Seu sobre nome... Ex: Silva">
+              <label for="sobrenome">Sobrenome</label>
+              <input type="text" id="sobrenome" name="sobrenome" placeholder="Seu sobre nome... Ex: Silva">
 
               <label for="email">Seu melhor email</label>
               <input type="email" id="mail" name="mail" placeholder="seuemail@mail.com">
@@ -88,7 +88,7 @@ chk.addEventListener('change', () => {
 })
 const backButton = document.getElementById('back_button')
 backButton.addEventListener('click', function(){
-    window.location.href = "index.html"
+    window.location.href = "./landingpage/carrgamento.html"
 })
 </script>
 </html>
