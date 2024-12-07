@@ -308,21 +308,254 @@ export const database = [
     },
 
     // PROMOCÇÕES INICIO
-    {
-        codigoProduto:4,
-        tituloProduto:"Furadeira e Parafusadeira Bosch Brushless de Impacto a Bateria 12V 3/8 12V GSB 12V-30", 
-        preco: 300.00, 
-        descricao:"A Parafusadeira e Furadeira de Impacto a Bateria de 3/8 Bosch GSB 12V-30, 12V, possui motor sem escovas de carvão a um preço que você nunca viu! Além disso, vem com sistema inteligente ECP que protege eletronicamente as células da bateria.",
-        imagemProduto: {
-            img1:"./images/products/prod02/img1.png",
-            img2:"./images/products/prod02/img2.png",
-            img3:"./images/products/prod02/img3.png",
-            img4:"./images/products/prod02/img4.png",
 
+    {
+        codigoProduto: 1004,
+        tituloProduto: "Furadeira Impacto Dewalt 20V com Acessórios", 
+        preco: 350.00, 
+        descricao: "Furadeira de impacto de alta potência com tecnologia de baterias de lítio 20V e kit de acessórios para todas as suas necessidades profissionais.",
+        imagemProduto: {
+            img1: "./images/products/prod02/img1.png",
+            img2: "./images/products/prod02/img2.png",
+            img3: "./images/products/prod02/img3.png",
+            img4: "./images/products/prod02/img4.png"
         },
-        categoriaProduto: 'Ferramentas',
-        classificacaoProduto:"Promocoes",
+        categoriaProduto: "Ferramentas",
+        classificacaoProduto: "Promocoes",
         exibirHome: true
+    },
+    {
+        codigoProduto: 1023,
+        tituloProduto: "Parafusadeira Makita 18V Compacta", 
+        preco: 280.00, 
+        descricao: "Parafusadeira compacta e leve, ideal para trabalhos em locais de difícil acesso. Motor potente com longa duração da bateria de 18V.",
+        imagemProduto: {
+            img1: "./images/products/prod02/img1.png",
+            img2: "./images/products/prod02/img2.png",
+            img3: "./images/products/prod02/img3.png",
+            img4: "./images/products/prod02/img4.png"
+        },
+        categoriaProduto: "Ferramentas",
+        classificacaoProduto: "Promocoes",
+        exibirHome: true
+    },
+    {
+        codigoProduto: 1050,
+        tituloProduto: "Esmerilhadeira Angular Bosch GWS 750W", 
+        preco: 220.00, 
+        descricao: "Esmerilhadeira angular robusta e de alta eficiência, ideal para cortes e desbastes precisos com motor de 750W.",
+        imagemProduto: {
+            img1: "./images/products/prod02/img1.png",
+            img2: "./images/products/prod02/img2.png",
+            img3: "./images/products/prod02/img3.png",
+            img4: "./images/products/prod02/img4.png"
+        },
+        categoriaProduto: "Ferramentas",
+        classificacaoProduto: "Promocoes",
+        exibirHome: true
+    },
+    {
+        codigoProduto: 1084,
+        tituloProduto: "Serra Circular Black+Decker 1400W", 
+        preco: 400.00, 
+        descricao: "Serra circular com motor potente de 1400W e design ergonômico para cortes precisos e segurança total.",
+        imagemProduto: {
+            img1: "./images/products/prod02/img1.png",
+            img2: "./images/products/prod02/img2.png",
+            img3: "./images/products/prod02/img3.png",
+            img4: "./images/products/prod02/img4.png"
+        },
+        categoriaProduto: "Ferramentas",
+        classificacaoProduto: "Promocoes",
+        exibirHome: true
+    },
+    {
+        codigoProduto: 1102,
+        tituloProduto: "Lixadeira Orbital Stanley 220W", 
+        preco: 250.00, 
+        descricao: "Lixadeira orbital eficiente para acabamentos suaves em madeira e superfícies planas. Motor de 220W.",
+        imagemProduto: {
+            img1: "./images/products/prod02/img1.png",
+            img2: "./images/products/prod02/img2.png",
+            img3: "./images/products/prod02/img3.png",
+            img4: "./images/products/prod02/img4.png"
+        },
+        categoriaProduto: "Ferramentas",
+        classificacaoProduto: "Promocoes",
+        exibirHome: true
+    },
+    {
+        codigoProduto: 1150,
+        tituloProduto: "Martelete Perfurador Bosch SDS Plus", 
+        preco: 600.00, 
+        descricao: "Martelete perfurador com sistema SDS Plus para troca rápida de brocas e excelente desempenho em concreto.",
+        imagemProduto: {
+            img1: "./images/products/prod02/img1.png",
+            img2: "./images/products/prod02/img2.png",
+            img3: "./images/products/prod02/img3.png",
+            img4: "./images/products/prod02/img4.png"
+        },
+        categoriaProduto: "Ferramentas",
+        classificacaoProduto: "Promocoes",
+        exibirHome: true
+    },
+    {
+        codigoProduto: 1200,
+        tituloProduto: "Chave de Impacto Dewalt 20V Max", 
+        preco: 700.00, 
+        descricao: "Chave de impacto sem fio com torque elevado para aplicações industriais. Alimentada por baterias 20V Max.",
+        imagemProduto: {
+            img1: "./images/products/prod02/img1.png",
+            img2: "./images/products/prod02/img2.png",
+            img3: "./images/products/prod02/img3.png",
+            img4: "./images/products/prod02/img4.png"
+        },
+        categoriaProduto: "Ferramentas",
+        classificacaoProduto: "Promocoes",
+        exibirHome: true
+    },
+    {
+        codigoProduto: 1200,
+        tituloProduto: "Chave de Impacto Dewalt 20V Max", 
+        preco: 700.00, 
+        descricao: "Chave de impacto sem fio com torque elevado para aplicações industriais. Alimentada por baterias 20V Max.",
+        imagemProduto: {
+            img1: "./images/products/prod02/img1.png",
+            img2: "./images/products/prod02/img2.png",
+            img3: "./images/products/prod02/img3.png",
+            img4: "./images/products/prod02/img4.png"
+        },
+        categoriaProduto: "Ferramentas",
+        classificacaoProduto: "Promocoes",
+        exibirHome: true
+    },
+    {
+        codigoProduto: 1200,
+        tituloProduto: "Chave de Impacto Dewalt 20V Max", 
+        preco: 700.00, 
+        descricao: "Chave de impacto sem fio com torque elevado para aplicações industriais. Alimentada por baterias 20V Max.",
+        imagemProduto: {
+            img1: "./images/products/prod02/img1.png",
+            img2: "./images/products/prod02/img2.png",
+            img3: "./images/products/prod02/img3.png",
+            img4: "./images/products/prod02/img4.png"
+        },
+        categoriaProduto: "Ferramentas",
+        classificacaoProduto: "Promocoes",
+        exibirHome: true
+    },
+    {
+        codigoProduto: 1200,
+        tituloProduto: "Chave de Impacto Dewalt 20V Max", 
+        preco: 700.00, 
+        descricao: "Chave de impacto sem fio com torque elevado para aplicações industriais. Alimentada por baterias 20V Max.",
+        imagemProduto: {
+            img1: "./images/products/prod02/img1.png",
+            img2: "./images/products/prod02/img2.png",
+            img3: "./images/products/prod02/img3.png",
+            img4: "./images/products/prod02/img4.png"
+        },
+        categoriaProduto: "Ferramentas",
+        classificacaoProduto: "Promocoes",
+        exibirHome: true
+    },
+    {
+        codigoProduto: 1200,
+        tituloProduto: "Chave de Impacto Dewalt 20V Max", 
+        preco: 700.00, 
+        descricao: "Chave de impacto sem fio com torque elevado para aplicações industriais. Alimentada por baterias 20V Max.",
+        imagemProduto: {
+            img1: "./images/products/prod02/img1.png",
+            img2: "./images/products/prod02/img2.png",
+            img3: "./images/products/prod02/img3.png",
+            img4: "./images/products/prod02/img4.png"
+        },
+        categoriaProduto: "Ferramentas",
+        classificacaoProduto: "Promocoes",
+        exibirHome: true
+    },
+    {
+        codigoProduto: 1200,
+        tituloProduto: "Chave de Impacto Dewalt 20V Max", 
+        preco: 700.00, 
+        descricao: "Chave de impacto sem fio com torque elevado para aplicações industriais. Alimentada por baterias 20V Max.",
+        imagemProduto: {
+            img1: "./images/products/prod02/img1.png",
+            img2: "./images/products/prod02/img2.png",
+            img3: "./images/products/prod02/img3.png",
+            img4: "./images/products/prod02/img4.png"
+        },
+        categoriaProduto: "Ferramentas",
+        classificacaoProduto: "Promocoes",
+        exibirHome: true
+    },
+    {
+        codigoProduto: 1200,
+        tituloProduto: "Chave de Impacto Dewalt 20V Max", 
+        preco: 700.00, 
+        descricao: "Chave de impacto sem fio com torque elevado para aplicações industriais. Alimentada por baterias 20V Max.",
+        imagemProduto: {
+            img1: "./images/products/prod02/img1.png",
+            img2: "./images/products/prod02/img2.png",
+            img3: "./images/products/prod02/img3.png",
+            img4: "./images/products/prod02/img4.png"
+        },
+        categoriaProduto: "Ferramentas",
+        classificacaoProduto: "Promocoes",
+        exibirHome: true
+    },
+    {
+        codigoProduto: 1200,
+        tituloProduto: "Chave de Impacto Dewalt 20V Max", 
+        preco: 700.00, 
+        descricao: "Chave de impacto sem fio com torque elevado para aplicações industriais. Alimentada por baterias 20V Max.",
+        imagemProduto: {
+            img1: "./images/products/prod02/img1.png",
+            img2: "./images/products/prod02/img2.png",
+            img3: "./images/products/prod02/img3.png",
+            img4: "./images/products/prod02/img4.png"
+        },
+        categoriaProduto: "Ferramentas",
+        classificacaoProduto: "Promocoes",
+        exibirHome: true
+    },
+
+
+
+
+
+
+
+
+    {
+        codigoProduto: 1300,
+        tituloProduto: "Pistola de Pintura Wagner ControlPro 150", 
+        preco: 850.00, 
+        descricao: "Pistola de pintura airless para trabalhos de pintura em grande escala. Alta eficiência e economia de tinta.",
+        imagemProduto: {
+            img1: "./images/products/prod03/img1.png",
+            img2: "./images/products/prod03/img2.png",
+            img3: "./images/products/prod03/img3.png",
+            img4: "./images/products/prod03/img4.png"
+        },
+        categoriaProduto: "Ferramentas",
+        classificacaoProduto: "Lançamentos",
+        exibirHome: true
+    },
+    {
+        codigoProduto: 1350,
+        tituloProduto: "Jogo de Brocas Titanium Bosch 25 peças", 
+        preco: 150.00, 
+        descricao: "Kit completo de brocas revestidas de titânio para maior durabilidade. Ideal para madeira, metal e plástico.",
+        imagemProduto: {
+            img1: "./images/products/prod04/img1.png",
+            img2: "./images/products/prod04/img2.png",
+            img3: "./images/products/prod04/img3.png",
+            img4: "./images/products/prod04/img4.png"
+        },
+        categoriaProduto: "Ferramentas",
+        classificacaoProduto: "Destaques",
+        exibirHome: false
     },
     {
         codigoProduto:4,
@@ -336,9 +569,9 @@ export const database = [
             img4:"./images/products/prod02/img4.png",
 
         },
-        categoriaProduto: 'Ferramentas',
-        classificacaoProduto:"Promocoes",
-        exibirHome: true
+        categoriaProduto: "Ferramentas",
+        classificacaoProduto: "Destaques",
+        exibirHome: false
     },
     {
         codigoProduto:4,
@@ -352,9 +585,9 @@ export const database = [
             img4:"./images/products/prod02/img4.png",
 
         },
-        categoriaProduto: 'Ferramentas',
-        classificacaoProduto:"Promocoes",
-        exibirHome: true
+        categoriaProduto: "Ferramentas",
+        classificacaoProduto: "Destaques",
+        exibirHome: false
     },
     {
         codigoProduto:4,
@@ -368,9 +601,9 @@ export const database = [
             img4:"./images/products/prod02/img4.png",
 
         },
-        categoriaProduto: 'Ferramentas',
-        classificacaoProduto:"Promocoes",
-        exibirHome: true
+        categoriaProduto: "Ferramentas",
+        classificacaoProduto: "Destaques",
+        exibirHome: false
     },
     {
         codigoProduto:4,
@@ -384,9 +617,9 @@ export const database = [
             img4:"./images/products/prod02/img4.png",
 
         },
-        categoriaProduto: 'Ferramentas',
-        classificacaoProduto:"Promocoes",
-        exibirHome: true
+        categoriaProduto: "Ferramentas",
+        classificacaoProduto: "Destaques",
+        exibirHome: false
     },
     {
         codigoProduto:4,
@@ -400,9 +633,9 @@ export const database = [
             img4:"./images/products/prod02/img4.png",
 
         },
-        categoriaProduto: 'Ferramentas',
-        classificacaoProduto:"Promocoes",
-        exibirHome: true
+        categoriaProduto: "Ferramentas",
+        classificacaoProduto: "Destaques",
+        exibirHome: false
     },
     {
         codigoProduto:4,
@@ -416,19 +649,59 @@ export const database = [
             img4:"./images/products/prod02/img4.png",
 
         },
-        categoriaProduto: 'Ferramentas',
-        classificacaoProduto:"Promocoes",
-        exibirHome: true
+        categoriaProduto: "Ferramentas",
+        classificacaoProduto: "Destaques",
+        exibirHome: false
     },
-
-
-
-
     // PROMOCÇÕES FIM
 
     // MAIS VENDIDOS INICIO
-
     {
+        codigoProduto: 102,
+        tituloProduto: "Furadeira e Parafusadeira Bosch Brushless de Impacto a Bateria 12V 3/8 12V GSB 12V-30",
+        preco: 350.00,
+        descricao: "Furadeira e Parafusadeira Bosch GSB 12V-30 com motor sem escovas de carvão, ideal para perfuração e fixação de parafusos, com bateria de 12V e sistema ECP para proteger as células da bateria.",
+        imagemProduto: {
+            img1: "./images/products/prod02/img1.png",
+            img2: "./images/products/prod02/img2.png",
+            img3: "./images/products/prod02/img3.png",
+            img4: "./images/products/prod02/img4.png"
+        },
+        categoriaProduto: "Ferramentas",
+        classificacaoProduto: "Mais_Vendidos",
+        exibirHome: true
+    },
+    {
+        codigoProduto: 102,
+        tituloProduto: "Furadeira e Parafusadeira Bosch Brushless de Impacto a Bateria 12V 3/8 12V GSB 12V-30",
+        preco: 350.00,
+        descricao: "Furadeira e Parafusadeira Bosch GSB 12V-30 com motor sem escovas de carvão, ideal para perfuração e fixação de parafusos, com bateria de 12V e sistema ECP para proteger as células da bateria.",
+        imagemProduto: {
+            img1: "./images/products/prod02/img1.png",
+            img2: "./images/products/prod02/img2.png",
+            img3: "./images/products/prod02/img3.png",
+            img4: "./images/products/prod02/img4.png"
+        },
+        categoriaProduto: "Ferramentas",
+        classificacaoProduto: "Mais_Vendidos",
+        exibirHome: true
+    },
+    {
+        codigoProduto: 102,
+        tituloProduto: "Furadeira e Parafusadeira Bosch Brushless de Impacto a Bateria 12V 3/8 12V GSB 12V-30",
+        preco: 350.00,
+        descricao: "Furadeira e Parafusadeira Bosch GSB 12V-30 com motor sem escovas de carvão, ideal para perfuração e fixação de parafusos, com bateria de 12V e sistema ECP para proteger as células da bateria.",
+        imagemProduto: {
+            img1: "./images/products/prod02/img1.png",
+            img2: "./images/products/prod02/img2.png",
+            img3: "./images/products/prod02/img3.png",
+            img4: "./images/products/prod02/img4.png"
+        },
+        categoriaProduto: "Ferramentas",
+        classificacaoProduto: "Mais_Vendidos",
+        exibirHome: true
+    },
+     {
         codigoProduto: 102,
         tituloProduto: "Furadeira e Parafusadeira Bosch Brushless de Impacto a Bateria 12V 3/8 12V GSB 12V-30",
         preco: 350.00,
@@ -543,6 +816,141 @@ export const database = [
             img2: "./images/products/prod09/img2.png",
             img3: "./images/products/prod09/img3.png",
             img4: "./images/products/prod09/img4.png"
+        },
+        categoriaProduto: "Ferramentas",
+        classificacaoProduto: "Mais_Vendidos",
+        exibirHome: true
+    },
+    {
+        codigoProduto: 923,
+        tituloProduto: "Lixadeira Bosch 220V 5 Pol.",
+        preco: 220.00,
+        descricao: "Lixadeira Bosch 220V 5 Pol., com design compacto e ergonômico, ideal para acabamento de superfícies de madeira e metais.",
+        imagemProduto: {
+            img1: "https://img.lojadomecanico.com.br/IMAGENS/21/222/168340/1728308033534.JPG",
+            img2: "./images/products/prod10/img2.png",
+            img3: "./images/products/prod10/img3.png",
+            img4: "./images/products/prod10/img4.png"
+        },
+        categoriaProduto: "Ferramentas",
+        classificacaoProduto: "Mais_Vendidos",
+        exibirHome: true
+    },
+    {
+        codigoProduto: 923,
+        tituloProduto: "Lixadeira Bosch 220V 5 Pol.",
+        preco: 220.00,
+        descricao: "Lixadeira Bosch 220V 5 Pol., com design compacto e ergonômico, ideal para acabamento de superfícies de madeira e metais.",
+        imagemProduto: {
+            img1: "https://img.lojadomecanico.com.br/IMAGENS/21/222/168340/1728308033534.JPG",
+            img2: "./images/products/prod10/img2.png",
+            img3: "./images/products/prod10/img3.png",
+            img4: "./images/products/prod10/img4.png"
+        },
+        categoriaProduto: "Ferramentas",
+        classificacaoProduto: "Mais_Vendidos",
+        exibirHome: true
+    },
+    {
+        codigoProduto: 923,
+        tituloProduto: "Lixadeira Bosch 220V 5 Pol.",
+        preco: 220.00,
+        descricao: "Lixadeira Bosch 220V 5 Pol., com design compacto e ergonômico, ideal para acabamento de superfícies de madeira e metais.",
+        imagemProduto: {
+            img1: "https://img.lojadomecanico.com.br/IMAGENS/21/222/168340/1728308033534.JPG",
+            img2: "./images/products/prod10/img2.png",
+            img3: "./images/products/prod10/img3.png",
+            img4: "./images/products/prod10/img4.png"
+        },
+        categoriaProduto: "Ferramentas",
+        classificacaoProduto: "Mais_Vendidos",
+        exibirHome: true
+    },
+    {
+        codigoProduto: 923,
+        tituloProduto: "Lixadeira Bosch 220V 5 Pol.",
+        preco: 220.00,
+        descricao: "Lixadeira Bosch 220V 5 Pol., com design compacto e ergonômico, ideal para acabamento de superfícies de madeira e metais.",
+        imagemProduto: {
+            img1: "https://img.lojadomecanico.com.br/IMAGENS/21/222/168340/1728308033534.JPG",
+            img2: "./images/products/prod10/img2.png",
+            img3: "./images/products/prod10/img3.png",
+            img4: "./images/products/prod10/img4.png"
+        },
+        categoriaProduto: "Ferramentas",
+        classificacaoProduto: "Mais_Vendidos",
+        exibirHome: true
+    },
+    {
+        codigoProduto: 923,
+        tituloProduto: "Lixadeira Bosch 220V 5 Pol.",
+        preco: 220.00,
+        descricao: "Lixadeira Bosch 220V 5 Pol., com design compacto e ergonômico, ideal para acabamento de superfícies de madeira e metais.",
+        imagemProduto: {
+            img1: "https://img.lojadomecanico.com.br/IMAGENS/21/222/168340/1728308033534.JPG",
+            img2: "./images/products/prod10/img2.png",
+            img3: "./images/products/prod10/img3.png",
+            img4: "./images/products/prod10/img4.png"
+        },
+        categoriaProduto: "Ferramentas",
+        classificacaoProduto: "Mais_Vendidos",
+        exibirHome: true
+    },
+    {
+        codigoProduto: 923,
+        tituloProduto: "Lixadeira Bosch 220V 5 Pol.",
+        preco: 220.00,
+        descricao: "Lixadeira Bosch 220V 5 Pol., com design compacto e ergonômico, ideal para acabamento de superfícies de madeira e metais.",
+        imagemProduto: {
+            img1: "https://img.lojadomecanico.com.br/IMAGENS/21/222/168340/1728308033534.JPG",
+            img2: "./images/products/prod10/img2.png",
+            img3: "./images/products/prod10/img3.png",
+            img4: "./images/products/prod10/img4.png"
+        },
+        categoriaProduto: "Ferramentas",
+        classificacaoProduto: "Mais_Vendidos",
+        exibirHome: true
+    },
+    {
+        codigoProduto: 923,
+        tituloProduto: "Lixadeira Bosch 220V 5 Pol.",
+        preco: 220.00,
+        descricao: "Lixadeira Bosch 220V 5 Pol., com design compacto e ergonômico, ideal para acabamento de superfícies de madeira e metais.",
+        imagemProduto: {
+            img1: "https://img.lojadomecanico.com.br/IMAGENS/21/222/168340/1728308033534.JPG",
+            img2: "./images/products/prod10/img2.png",
+            img3: "./images/products/prod10/img3.png",
+            img4: "./images/products/prod10/img4.png"
+        },
+        categoriaProduto: "Ferramentas",
+        classificacaoProduto: "Mais_Vendidos",
+        exibirHome: true
+    },
+    {
+        codigoProduto: 923,
+        tituloProduto: "Lixadeira Bosch 220V 5 Pol.",
+        preco: 220.00,
+        descricao: "Lixadeira Bosch 220V 5 Pol., com design compacto e ergonômico, ideal para acabamento de superfícies de madeira e metais.",
+        imagemProduto: {
+            img1: "https://img.lojadomecanico.com.br/IMAGENS/21/222/168340/1728308033534.JPG",
+            img2: "./images/products/prod10/img2.png",
+            img3: "./images/products/prod10/img3.png",
+            img4: "./images/products/prod10/img4.png"
+        },
+        categoriaProduto: "Ferramentas",
+        classificacaoProduto: "Mais_Vendidos",
+        exibirHome: true
+    },
+    {
+        codigoProduto: 923,
+        tituloProduto: "Lixadeira Bosch 220V 5 Pol.",
+        preco: 220.00,
+        descricao: "Lixadeira Bosch 220V 5 Pol., com design compacto e ergonômico, ideal para acabamento de superfícies de madeira e metais.",
+        imagemProduto: {
+            img1: "https://img.lojadomecanico.com.br/IMAGENS/21/222/168340/1728308033534.JPG",
+            img2: "./images/products/prod10/img2.png",
+            img3: "./images/products/prod10/img3.png",
+            img4: "./images/products/prod10/img4.png"
         },
         categoriaProduto: "Ferramentas",
         classificacaoProduto: "Mais_Vendidos",
