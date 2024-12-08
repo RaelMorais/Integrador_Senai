@@ -67,7 +67,7 @@ nav {
 }
 
 .navegacao_home_page a:hover {
-    color: #f39c12; 
+    color: #000000; 
 }
 .color_one, .color_two, .color_three {
     flex: 1; /* Each section will take up an equal portion of the width */
@@ -87,14 +87,21 @@ nav {
     background-color: greenyellow;
 }
 .button_home{
-    height: 50px;
+    height: 40px;
     width: 150px;
+    background-color: blue;
+    color: white;
     border-radius: 5px;
     justify-content: center;
     border: none;
+    &:hover{
+      background-color: white;
+      color: #000000;
+      transition: 0.2s;
+    }
 }
 .btn_hp{
-    margin-top: 40%;
+    margin-top: 400px;
     display: flex;
     margin-left: auto;
     margin-right: auto;

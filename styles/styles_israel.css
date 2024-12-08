@@ -66,7 +66,7 @@
     .icones .fa-solid{
         font-size: 25px;
         &:hover{
-            color:rgb(0, 0, 0);
+            color:rgb(0, 38, 255);
             transition: 0.2s;
         }
     }
@@ -406,6 +406,10 @@
     .fa-brands{
         color: #fdfdfd;
         font-size: 30px;
+        &:hover{
+            color: #1500ff;
+            transition: 0.2s;
+        }
     }
     .slogam{
         font-size: 60px;
