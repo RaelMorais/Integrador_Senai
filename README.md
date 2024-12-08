@@ -38,7 +38,12 @@ laceholder.com/468x300?text=App+Screenshot+Here)
 Para frontend foi usado figma para criação de banners, prototipagem, além de toda parte visual. Para desenvolvimento foi usado HTML5 e CSS3.
 <h1>Backend</h1>
 Para desenvolvimento backend foi usado JS e Python, JS para toda parte de responsividade e Python para subir o servidor em outra máquina. 
+ 
+## :warning: Pontos para melhorias futuras
 
+<p>Mudar nome de classes e deixar todos em um único padrão</p>
+<p>Subir video online para poupar espaços</p>
+<p>Melhorar organização de arquivos, imagens, etc...</p>
 
 ## 🛠 Ferramentas usadas
 [![My Skills](https://skillicons.dev/icons?i=css,html,python,javascript,figma,git,vscode&theme=dark)](https://skillicons.dev)
