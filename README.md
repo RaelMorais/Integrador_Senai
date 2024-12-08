@@ -1,5 +1,4 @@
-<h1>A fazer</h1>
-
-<p>Criar forms para envio de email e por hrefs nas nav e links...</p>
-<p>Adicionar videos</P>
-<p>Por banner na products</p>
+<h1>Pontos de melhoria</h1>
+<p>Mudar nome de classes e deixar todos em um único padrão</p>
+<p>Subir video online para poupar espaços</p>
+<p>Melhorar organização de arquivos, imagens, etc...</p>
