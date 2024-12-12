@@ -103,7 +103,7 @@ function exportToExcel() {
         // item.imagemProduto.img4,
         item.categoriaProduto,
         item.classificacaoProduto,
-        item.exibirHome,
+        // item.exibirHome,
         item.quantity,
         pedido.totalValue,
       ]);
